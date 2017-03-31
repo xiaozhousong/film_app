@@ -1,0 +1,69 @@
+[
+	{   
+        "id":"1",
+		"name":"Logan",
+		"release":"01/03/2017",
+		"director":"James Mangold",
+		"bio":"In the near future, a weary Logan (Hugh Jackman) cares for an ailing Professor X (Patrick Stewart) at a remote outpost on the Mexican border. His plan to hide from the outside world gets upended when he meets a young mutant (Dafne Keen) who is very much like him. Logan must now protect the girl and battle the dark forces that want to capture her.",
+		"cinema":"Odeon IMAX cinema Manchester Printworks",
+		"lat":53.465212,
+		"lng":-2.229710
+		
+	},
+	{
+		"id":"2",
+		"name":"Transformers",
+		"release":"22/06/2017",
+		"director":"Michael Bay",
+		"bio":"Humans are at war with the Transformers, and Optimus Prime is gone. The key to saving the future lies buried in the secrets of the past and the hidden history of Transformers on Earth. Now, it's up to the unlikely alliance of Cade Yeager (Mark Wahlberg), Bumblebee, an English lord (Anthony Hopkins) and an Oxford professor to save the world.",
+		"cinema":"Odeon IMAX cinema Manchester Printworks",
+		"lat":53.465212,
+		"lng":-2.229710
+
+		
+	},	
+	{
+		"id":"3",
+		"name":"Skull Island",
+		"release":"08/03/2017",
+		"director":"Jordan Vogt-Roberts",
+		"bio":"Scientists, soldiers and adventurers unite to explore a mythical, uncharted island in the Pacific Ocean. Cut off from everything they know, they venture into the domain of the mighty Kong, igniting the ultimate battle between man and nature. As their mission of discovery soon becomes one of survival, they must fight to escape.",
+		"cinema":"Odeon IMAX cinema Manchester Printworks.",
+		"lat":53.465212,
+		"lng":-2.229710
+	},
+	{   
+        "id":"4",
+		"name":"Pirates of the Caribbean",
+		"release":"25/05/2017",
+		"director":"Joachim Ronning",
+		"bio":"Thrust into an all-new adventure, a down-on-his-luck Capt. Jack Sparrow (Johnny Depp) feels the winds of ill-fortune blowing even more strongly when deadly ghost sailors led by his old nemesis, the evil Capt. Salazar (Javier Bardem), escape from the Devil's Triangle. Jack's only hope of survival lies in seeking out the legendary Trident of Poseidon.",
+		"cinema":"Odeon IMAX cinema Manchester Printworks",
+		"lat":53.465212,
+		"lng":-2.229710
+
+	},
+	{   
+        "id":"5",
+		"name":"Alien: Covenant",
+		"release":"18/05/2017",
+		"director":"Ridley Scott",
+		"bio":"Bound for a remote planet on the far side of the galaxy, members (Katherine Waterston, Billy Crudup) of the colony ship Covenant discover what they think to be an uncharted paradise. While there, they meet David (Michael Fassbender), the synthetic survivor of the doomed Prometheus expedition. The mysterious world soon turns dark.",
+		"cinema":"Odeon IMAX cinema Manchester Printworks",
+		"lat":53.465212,
+		"lng":-2.229710
+
+	},
+	{   
+        "id":"6",
+		"name":"Beauty and the Beast",
+		"release":"23/02/2017",
+		"director":"Bill Condon",
+		"bio":"Belle (Emma Watson), a bright, beautiful and independent young woman, is taken prisoner by a beast (Dan Stevens) in its castle. Despite her fears, she befriends the castle's enchanted staff and learns to look beyond the beast's hideous exterior, allowing her to recognize the kind heart and soul of the true prince that hides on the inside.",
+		"cinema":"Odeon IMAX cinema Manchester Printworks",
+		"lat":53.465212,
+		"lng":-2.229710
+
+	}
+
+]

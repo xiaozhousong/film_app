@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'coolvetica';
+    src: url('../font/coolvetica.ttf');   
+}
+
+body {
+    background-color: #222222;
+    color:white;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  
+}
+nav{
+    height: 3.2em;
+    padding: 10px; 
+    margin: 10px;
+}
+.row {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+.logo{
+    /*border-style: solid;
+    border-width: 0.5px;*/
+}
+.icon{
+
+}
+.main{
+    /*border-style: solid;
+    border-width: 0.5px;*/
+    
+    width: 100%;
+    position: relative;
+}
+.list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.film_img{
+    height: auto;
+    width: 100%;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 50px;
+    color: #A0002E;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.bgimg{
+    max-width: 100%;
+    max-height: 100%;
+}
+.center {
+    display: block;
+    margin: auto;
+  }
+.bg{
+    position: absolute;   
+}
+.info{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding: 20% 20% 0% 0%; 
+
+}
+.main_text{
+    background-color: rgba(0,0,0, 0.8);
+    padding: 15%;
+}
+#name{
+    float: right;
+
+}
+.big_title{
+    font-family: 'coolvetica';
+    font-size: 3.5em;
+    margin-right: 0px;
+    line-height: 70%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding: 10%; 
+}
+.big_title_div{
+    height:60px;
+}
+.detail_button{
+    width: 7em;
+}
+
+.map-control {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+    font-family: 'Roboto','sans-serif';
+    margin: 10px;
+    /* Hide the control initially, to prevent it from appearing
+       before the map loads. */
+    display: none;
+}
+    /* Display the control once it is inside the map. */
+#map .map-control { display: block; }
+
+.selector-control {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.fav_title{
+    text-align:center;
+    font-family: 'coolvetica';
+    font-size: 1.5em;
+}
+/*.favtemp{
+    background-color: rgba(250,250,250, 0.5);
+}*/
+
+.thumbnail {
+    
+     border: 0px; 
+    
+}

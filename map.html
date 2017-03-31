@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html> 
+<head>  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Flim-jquery</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    
+ 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+    <style>
+
+</style>
+
+</head>
+<body>
+
+<nav>
+<div class = "row"> 
+  <div class = "logo col-md-10 col-xs-10">
+      <a href="details.html"><img src="images/icon2.png " class="icon"></a>
+      
+      <span onclick="openNav()">
+  </div>
+  <!-- <div class = "logo col-md-8 col-xs-8">
+      <p id="name" class=""></p>
+  </div> -->
+  <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="fav.html">Favourites</a>
+        
+  </div>
+  </div>
+  <div class = "logo col-md-2 col-xs-2">   
+      <img src="images/icon1.png " onclick="openNav()" class="icon">
+      </span>
+  </div>
+</div>
+</nav>
+
+<div class= "main">
+    
+    <div id="style-selector-control"  class="map-control">
+      <select id="style-selector" class="selector-control">
+        <option value="default">Default</option>
+        <option value="silver">Silver</option>
+        <option value="night">Night mode</option>
+        <option value="retro" selected="selected">Retro</option>
+        <option value="hiding">Hide features</option>
+      </select>
+    </div>
+
+    <div id="map" style="height: 650px;"></div>
+
+</div>
+
+
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+}
+</script>
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/map.js"></script>
+  <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwHeiNvCbJsZI1zey7NhdheWzYm0vd2oY&callback=initMap"></script> 
+  
+
+    
+</body>
+</html>
